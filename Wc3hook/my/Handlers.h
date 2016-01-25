@@ -1,0 +1,22 @@
+#include "Globals.h"
+#ifndef HANDLERS_H
+#define HANDLERS_H
+void CirclesDrawHook();
+void BuildHook();
+void CameraHook();
+void ViewUnitsHook();
+void UnitCommandHook();
+void DrawLineOnMinimap();
+void HpBarsHook();
+void SafeClickHk1();
+void SafeClickHk2();
+void SafeClickHk3();
+void ManaBarPosition();
+void ManaBarHook();
+void ManaBarDraw();
+void CooldownsDrawHook();
+void CooldownsEraseHook();
+void CooldownsHook();
+void BuffDurationsDrawHook();
+void BuffDurationsHook();
+#endif
